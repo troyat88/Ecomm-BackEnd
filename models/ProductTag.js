@@ -13,14 +13,14 @@ ProductTag.init(
       primaryKey: true,
       autoIncrement: true
     },
-    category_id: {  //Connecting to Product Model's ID
+    product_id: {  //Connecting to Product Model's ID
       type: DataTypes.INTEGER, 
       references: {
         model: "product",
         key:"id", 
      }
    },
-   category_id: {  //Connecting to Tag Model's ID
+   tag_id: {  //Connecting to Tag Model's ID
     type: DataTypes.INTEGER, 
     references: {
       model: "tag",
