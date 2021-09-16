@@ -38,8 +38,8 @@ Product.init(
     category_id: {  //Connecting to Category Model's ID
      type: DataTypes.INTEGER, 
      references: {
-       model: "category",
-       key:"id", 
+       model: 'category',
+       key:'id', 
     }
   }, 
 },
